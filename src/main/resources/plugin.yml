@@ -1,0 +1,27 @@
+name: PlayGroundKotlin
+version: 1.0
+main: com.unongmilk.Main
+api-version: 1.18
+libraries:
+  - io.github.monun:tap:4.3.2
+  - io.github.monun:kommand:2.8.1
+  - io.github.monun:invfx:3.1.0
+  - org.jetbrains.kotlin:kotlin-stdlib:1.5.21
+  - org.jetbrains.kotlin:kotlin-reflect:1.5.21
+  - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0
+commands:
+  sample:
+    description: sample
+    Usage: sample
+  db:
+    description: double Blade Command
+    usage: /db
+  pg:
+    description: playground Command
+    usage: /pg
+  remote:
+    description: remote
+  home:
+    description: home command
+  sethome:
+    description: sethome command
